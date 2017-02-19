@@ -1,14 +1,15 @@
 
+
+
+
 body{ font-family: Arial, Helvetica; 
-	background-color: #eeeeee;
+	background-image: url("../images/mountains.jpg");
 	width:960px;
+	background-size: 100%;
+	background-position: fixed;
 	}
 
-#container {
-		position:relative;
-		padding:0 auto;
-		margin:0 auto;
-		}
+
 
 
 
@@ -64,19 +65,73 @@ h3{font-family: Georgia, times, 'times new roman'; color:#4aaaa5;}
 				padding:25px;
 				float:left;
 				margin: 20px 10px 20px 40px;
-				background: #ffffff;
+				background: rgba(255,255,255, .7);
 				line-height:30px;
 				border: 1px solid #dddddd;
 }
+
 #index-content img { float: left;
 			height: 30%;
 			width: 30%;
 			margin: 5px; }
 
+
+
+#contact-content { 
+				width: 50%;
+				padding:25px;
+				float:left;
+				margin: 20px 10px 20px 40px;
+				background: rgba(255,255,255, .7);
+				line-height:30px;
+				border: 1px solid #dddddd;}
+
+
+
+
+#portfolio-content {width: 50%;
+				padding:25px;
+				float:left;
+				margin: 20px 10px 20px 40px;
+				background: rgba(255,255,255, .7);
+				line-height:30px;
+				border: 1px solid #dddddd;
+				}
+
+
+#portfolio-content div{ width: 40%;
+						float:left;
+						border: 1px solid #dddddd; 
+						margin: 5px 5px 10px 5px;
+						height: 200px;
+						vertical-align: bottom;
+					}
+
+#portfolio-content p { 	
+						color: #ffffff;
+						background:#4aaaa5;
+						text-align: center;
+						
+						
+						}
+
+#hangman { background-image:url("../images/gator.jpg");
+			background-size: cover;}
+#rpg-game {background-image:url("../images/deer.jpg");
+			background-size: cover;}
+#trivia-game {background-image: url("../images/fox.jpg");
+				background-size: cover;}
+#rutgers {background-image: url("../images/iguana.jpg");
+				background-size: cover;}
+#rock-paper-scissors {background-image: url("../images/stockimage.jpg");
+				background-size: cover;}
+
+
+
 #mylinks {
 		float: left;
 		width: 30%;
-		background: #ffffff;
+		background: rgba(255,255,255, .7);
 		margin: 20px 10px 10px 10px;
 		border: 1px solid #dddddd;
 		padding:10px;
@@ -88,6 +143,20 @@ h3{font-family: Georgia, times, 'times new roman'; color:#4aaaa5;}
 				margin: 5px;}
 
 
+input { width:80%; 
+		height: 20px;
+		font-size: 15px;
+		color:#666666;}
+
+#message-input{ height: 100px; }
+
+button { background-color: #4aaaa5;
+		color: #ffffff;
+		border:none;
+		text-align:center; 
+		padding:15px 30px;
+		margin: 10px;
+		font-size: 20px;}
 
 #footer{
 	border: 5px solid #4aaaa5;
@@ -101,6 +170,6 @@ h3{font-family: Georgia, times, 'times new roman'; color:#4aaaa5;}
 	background: #666666;
 	color:#ffffff;
 	width:100%;
-	position:absolute;
+	/*position:absolute;*/
 	bottom:0;
 }
