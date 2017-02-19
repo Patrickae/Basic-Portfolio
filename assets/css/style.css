@@ -60,8 +60,7 @@ h2{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roma
 h3{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; color:#4aaaa5;}
 
 
-
-
+/*Window on the index.html page below*/
 
 #index-content {
 				width: 50%;
@@ -79,7 +78,7 @@ h3{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roma
 			margin: 5px; }
 
 
-
+/*window on the contact.html page below*/
 #contact-content { 
 				width: 50%;
 				padding:25px;
@@ -89,9 +88,25 @@ h3{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roma
 				line-height:30px;
 				border: 1px solid #cccccc;}
 
+textarea { width:80%; 
+		height: 20px;
+		font-size: 15px;
+		color:#666666;
+		position:block;}
+
+#message-input{ height: 100px; }
 
 
+button { background-color: #4aaaa5;
+		color: #ffffff;
+		border:none;
+		text-align:center; 
+		padding:15px 30px;
+		margin: 10px;
+		font-size: 20px;}
 
+
+/*window on the portfolio.html page below*/
 #portfolio-content {width: 50%;
 				padding:25px;
 				float:left;
@@ -130,7 +145,7 @@ h3{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roma
 				background-size: cover;}
 
 
-
+/*social media links below*/
 #mylinks {
 		float: left;
 		width: 30%;
@@ -146,22 +161,9 @@ h3{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roma
 				margin: 5px;}
 
 
-input { width:80%; 
-		height: 20px;
-		font-size: 15px;
-		color:#666666;}
 
-#message-input{ height: 100px; }
+/*Footer formatting*/
 
-button { background-color: #4aaaa5;
-		color: #ffffff;
-		border:none;
-		text-align:center; 
-		padding:15px 30px;
-		margin: 10px;
-		font-size: 20px;}
-
-#container { position:relative; }
 #footer{
 	border: 5px solid #4aaaa5;
 	border-width:5px 0px 0px 0px;
