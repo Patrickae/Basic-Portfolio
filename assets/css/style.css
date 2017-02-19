@@ -7,6 +7,7 @@ body{ font-family: Arial, Helvetica;
 	width:960px;
 	height:100%;
 	margin:0;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 
 	}
 
@@ -42,7 +43,7 @@ li a {display: block;
 li a:hover {background: #dddddd;}
 
 
-h1{font-family: Georgia, times, 'times new roman'; 
+h1{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 float:left;
  width:25%;
  color:#ffffff;
@@ -55,8 +56,8 @@ line-height:50px;
 }
 
 
-h2{font-family: Georgia, times, 'times new roman'; color:#4aaaa5;}
-h3{font-family: Georgia, times, 'times new roman'; color:#4aaaa5;}
+h2{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; color:#4aaaa5;}
+h3{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; color:#4aaaa5;}
 
 
 
