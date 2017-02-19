@@ -175,7 +175,7 @@ button { background-color: #4aaaa5;
 	margin-top:10px;
 	background: #666666;
 	color:#ffffff;
-	width:960px;
+	width:100%;
 	position: fixed;
 	bottom:0;
 }
