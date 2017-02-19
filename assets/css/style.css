@@ -1,17 +1,19 @@
 
 body{ font-family: Arial, Helvetica; 
 	background-color: #eeeeee;
-	margin: 0 auto;
-	
+	width:960px;
 	}
 
 #container {
-		position:relative;}
+		position:relative;
+		padding:0 auto;
+		margin:0 auto;
+		}
 
 
 
 header{
-		width:900px;
+		width:100%;
 		padding:30px;
 		clear:both;
 		background-color: #ffffff;
@@ -31,7 +33,8 @@ li { float: right; }
 li a {display: block;
 	text-align:center;
 	padding: 14px 16px;
-	text-decoration:none;}
+	text-decoration:none;
+	color:#666666;}
 
 
 
@@ -49,25 +52,25 @@ line-height:50px;
 }
 
 
-h2{font-family: Georgia, times, 'times new roman'; }
-h3{font-family: Georgia, times, 'times new roman'; }
+h2{font-family: Georgia, times, 'times new roman'; color:#4aaaa5;}
+h3{font-family: Georgia, times, 'times new roman'; color:#4aaaa5;}
 
 
 
 
 
 #index-content {
-				width: 30%;
+				width: 50%;
 				padding:25px;
 				float:left;
 				margin: 20px 10px 20px 40px;
 				background: #ffffff;
-				line-height:20px;
+				line-height:30px;
 				border: 1px solid #dddddd;
 }
 #index-content img { float: left;
-			height: 50%;
-			width: 50%;
+			height: 30%;
+			width: 30%;
 			margin: 5px; }
 
 #mylinks {
@@ -76,11 +79,12 @@ h3{font-family: Georgia, times, 'times new roman'; }
 		background: #ffffff;
 		margin: 20px 10px 10px 10px;
 		border: 1px solid #dddddd;
+		padding:10px;
 
 }
 
-#mylinks img{ height:15%;
-				width: 15%; 
+#mylinks img{ height:20%;
+				width: 20%; 
 				margin: 5px;}
 
 
@@ -93,9 +97,10 @@ h3{font-family: Georgia, times, 'times new roman'; }
 	line-height:30px;
 	clear:both;
 	margin:0 auto;
+	margin-top:10px;
 	background: #666666;
 	color:#ffffff;
-	width:900px;
+	width:100%;
 	position:absolute;
 	bottom:0;
 }
