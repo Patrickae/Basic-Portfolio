@@ -3,10 +3,11 @@
 
 
 body{ font-family: Arial, Helvetica; 
-	background-image: url("../images/mountains.jpg");
+	background-color: #dddddd;
 	width:960px;
-	background-size: 100%;
-	background-position: fixed;
+	height:100%;
+	margin:0;
+
 	}
 
 
@@ -23,6 +24,7 @@ header{
 
 		}
 
+
 ul { list-style-type:none;
 margin:0;
 padding: 0;
@@ -37,7 +39,7 @@ li a {display: block;
 	text-decoration:none;
 	color:#666666;}
 
-
+li a:hover {background: #dddddd;}
 
 
 h1{font-family: Georgia, times, 'times new roman'; 
@@ -67,7 +69,7 @@ h3{font-family: Georgia, times, 'times new roman'; color:#4aaaa5;}
 				margin: 20px 10px 20px 40px;
 				background: rgba(255,255,255, .7);
 				line-height:30px;
-				border: 1px solid #dddddd;
+				border: 1px solid #cccccc;
 }
 
 #index-content img { float: left;
@@ -84,7 +86,7 @@ h3{font-family: Georgia, times, 'times new roman'; color:#4aaaa5;}
 				margin: 20px 10px 20px 40px;
 				background: rgba(255,255,255, .7);
 				line-height:30px;
-				border: 1px solid #dddddd;}
+				border: 1px solid #cccccc;}
 
 
 
@@ -95,7 +97,7 @@ h3{font-family: Georgia, times, 'times new roman'; color:#4aaaa5;}
 				margin: 20px 10px 20px 40px;
 				background: rgba(255,255,255, .7);
 				line-height:30px;
-				border: 1px solid #dddddd;
+				border: 1px solid #cccccc;
 				}
 
 
@@ -133,7 +135,7 @@ h3{font-family: Georgia, times, 'times new roman'; color:#4aaaa5;}
 		width: 30%;
 		background: rgba(255,255,255, .7);
 		margin: 20px 10px 10px 10px;
-		border: 1px solid #dddddd;
+		border: 1px solid #cccccc;
 		padding:10px;
 
 }
@@ -158,6 +160,7 @@ button { background-color: #4aaaa5;
 		margin: 10px;
 		font-size: 20px;}
 
+#container { position:relative; }
 #footer{
 	border: 5px solid #4aaaa5;
 	border-width:5px 0px 0px 0px;
@@ -169,7 +172,7 @@ button { background-color: #4aaaa5;
 	margin-top:10px;
 	background: #666666;
 	color:#ffffff;
-	width:100%;
-	/*position:absolute;*/
+	width:960px;
+	position: fixed;
 	bottom:0;
 }
