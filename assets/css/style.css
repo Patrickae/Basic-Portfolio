@@ -5,23 +5,26 @@
 body{ font-family: Arial, Helvetica; 
 	background-color: #dddddd;
 	width:960px;
-	height:100%;
+	height:100%px;
 	margin:0;
 	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-
+	overflow: auto;
+	
 	}
 
 
 
 
 
-header{
-		width:100%;
+#header{
+		width: 900px;
 		padding:30px;
 		clear:both;
 		background-color: #ffffff;
 		border-bottom: 5px solid #cccccc;
 		position: relative;
+		margin:0;
+
 
 		}
 
@@ -30,7 +33,8 @@ ul { list-style-type:none;
 margin:0;
 padding: 0;
 overflow: hidden;
-background-color: #ffffff; }
+background-color: #ffffff; 
+width: 850px;}
 
 li { float: right; }
 
@@ -53,11 +57,16 @@ padding: 20px;
 bottom:0;
 margin:0 auto;
 line-height:50px;
+font-size: 35px
 }
 
 
-h2{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; color:#4aaaa5;}
-h3{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; color:#4aaaa5;}
+h2{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+color:#4aaaa5;
+font-size:30px;}
+h3{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; 
+color:#4aaaa5;
+font-size:25px;}
 
 
 /*Window on the index.html page below*/
@@ -83,7 +92,7 @@ h3{font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roma
 				width: 50%;
 				padding:25px;
 				float:left;
-				margin: 20px 10px 20px 40px;
+				margin: 20px 10px 90px 40px;
 				background: rgba(255,255,255, .7);
 				line-height:30px;
 				border: 1px solid #cccccc;}
@@ -110,7 +119,7 @@ button { background-color: #4aaaa5;
 #portfolio-content {width: 50%;
 				padding:25px;
 				float:left;
-				margin: 20px 10px 20px 40px;
+				margin: 20px 10px 90px 40px;
 				background: rgba(255,255,255, .7);
 				line-height:30px;
 				border: 1px solid #cccccc;
@@ -148,7 +157,7 @@ button { background-color: #4aaaa5;
 /*social media links below*/
 #mylinks {
 		float: left;
-		width: 30%;
+		width: 250px;
 		background: rgba(255,255,255, .7);
 		margin: 20px 10px 10px 10px;
 		border: 1px solid #cccccc;
@@ -166,7 +175,7 @@ button { background-color: #4aaaa5;
 
 #footer{
 	border: 5px solid #4aaaa5;
-	border-width:5px 0px 0px 0px;
+	border-width:5px 0 0 0;
 	font-size: 10px;
 	text-align:center;
 	line-height:30px;
@@ -175,7 +184,9 @@ button { background-color: #4aaaa5;
 	margin-top:10px;
 	background: #666666;
 	color:#ffffff;
-	width:100%;
+	width:960px;
 	position: fixed;
 	bottom:0;
+	height:60px;
+
 }
