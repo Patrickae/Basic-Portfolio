@@ -73,18 +73,21 @@ font-size:25px;}
 
 #index-content {
 				width: 50%;
-				padding:25px;
+				padding:30px 25px 50px 25px;
 				float:left;
 				margin: 20px 10px 20px 40px;
 				background: rgba(255,255,255, .7);
-				line-height:30px;
+				line-height:35px;
 				border: 1px solid #cccccc;
+				font-size:18px;
 }
 
 #index-content img { float: left;
 			height: 30%;
 			width: 30%;
-			margin: 5px; }
+			margin: 5px 20px 5px 5px;
+
+			 }
 
 
 /*window on the contact.html page below*/
@@ -138,21 +141,51 @@ button { background-color: #4aaaa5;
 						color: #ffffff;
 						background:#4aaaa5;
 						text-align: center;
-						
-						
 						}
 
 #hangman { background-image:url("../images/gator.jpg");
-			background-size: cover;}
-#rpg-game {background-image:url("../images/deer.jpg");
-			background-size: cover;}
-#trivia-game {background-image: url("../images/fox.jpg");
-				background-size: cover;}
-#rutgers {background-image: url("../images/iguana.jpg");
-				background-size: cover;}
-#rock-paper-scissors {background-image: url("../images/stockimage.jpg");
-				background-size: cover;}
+			background-size: cover;
+			position:relative;}
 
+#hangman p{ position:absolute;
+			bottom: 10px;
+			width:100%; }
+
+
+#rpg-game {background-image:url("../images/deer.jpg");
+			background-size: cover;
+			position:relative;}
+
+#rpg-game p{ position:absolute;
+			bottom: 10px;
+			width:100%; }
+
+#trivia-game {background-image: url("../images/fox.jpg");
+				background-size: cover;
+				position:relative;}
+
+#trivia-game p{ position:absolute;
+			bottom: 10px;
+			width:100%; }
+
+
+#rutgers {background-image: url("../images/iguana.jpg");
+				background-size: cover;
+				position:relative;}
+
+#rutgers p {position:absolute;
+			bottom: 10px;
+			width:100%; }
+
+
+
+#rock-paper-scissors {background-image: url("../images/stockimage.jpg");
+				background-size: cover;
+				position:relative;}
+
+#rock-paper-scissors p{position:absolute;
+			top: 20px;
+			width:100%; }
 
 /*social media links below*/
 #mylinks {
